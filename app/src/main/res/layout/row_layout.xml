@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="50dip"
+    android:padding="6dip">
+
+    <TextView
+        android:id="@+id/indice"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:ellipsize="marquee"
+
+        android:maxLines="1"
+        android:text="Indice"
+        android:textAlignment="textStart"
+        android:gravity="start"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/col1"
+        android:layout_width="70dip"
+        android:layout_height="50dip"
+
+
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginStart="15dip"
+        android:layout_toEndOf="@+id/indice"
+        android:gravity="start"
+        android:text="col1"
+        android:textAlignment="textStart"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/col2"
+        android:layout_width="70dip"
+        android:layout_height="50dip"
+
+
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginStart="15dip"
+        android:layout_toEndOf="@+id/col1"
+        android:gravity="start"
+        android:text="col2"
+        android:textAlignment="textStart"
+        android:textSize="18sp" />
+
+
+    <ImageButton
+        android:id="@+id/buttonDelete"
+        android:layout_width="50dip"
+        android:layout_height="40dip"
+        android:background="@drawable/icono_borrar"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dip"
+        android:layout_toEndOf="@+id/col2"
+
+
+        android:contentDescription="Delete"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icono_borrar" />
+
+
+
+</RelativeLayout>

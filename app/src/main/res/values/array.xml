@@ -1,0 +1,18 @@
+<resources>
+
+
+    <string-array name="listArrayTipoUnidades">
+        <item>METRICO</item>
+        <item>IMPERIAL</item>
+    </string-array>
+
+    <string-array name="listValuesTipoUnidades">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+
+
+
+
+</resources>

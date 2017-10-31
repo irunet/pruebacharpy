@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.techlabsystems.pruebacharpy">
+
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER"/>
+    <uses-permission android:name="android.intent.action.ACTION_REQUEST_SHUTDOWN"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS"/>
+
+
+    <application
+        android:name="com.techlabsystems.pruebacharpy.Aplicacion"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.techlabsystems.pruebacharpy.MainActivity"
+            android:label="@string/titulo_app"
+            android:screenOrientation="landscape">
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <!-- Para sustituir al lanzador del sistema
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                -->
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.techlabsystems.pruebacharpy.PreferenceActivityEnsayo"
+            android:label="Preferences">
+            <intent-filter>
+                <category android:name="android.intent.category.PREFERENCE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.techlabsystems.pruebacharpy.TipoEnsayoActivity"
+            android:label="Tipos de ensayo">
+
+        </activity>
+        <activity
+            android:name="com.techlabsystems.pruebacharpy.SelectMazaActivity"
+            android:label="Selección de la maza de ensayo">
+
+        </activity>
+        <activity
+            android:name="com.techlabsystems.pruebacharpy.EnsayoActivity"
+            android:label="ENSAYO"
+            android:windowSoftInputMode="stateHidden">
+
+        </activity>
+        <activity
+            android:name="com.techlabsystems.pruebacharpy.CalibracionActivity"
+            android:label="CALIBRACION"
+            android:windowSoftInputMode="stateHidden">
+
+        </activity>
+        <activity
+            android:name="com.techlabsystems.pruebacharpy.ConfigWindowActivity"
+            android:label="Config. máquina">
+
+        </activity>
+        <activity
+            android:name="com.techlabsystems.pruebacharpy.EstadisticasActivity"
+            android:label="Estadísticas">
+
+        </activity>
+        <activity
+            android:name="com.techlabsystems.pruebacharpy.ExplorerActivity"
+            android:label="Explorer">
+
+        </activity>
+
+        <receiver android:enabled="true" android:name=".BootReceiver"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

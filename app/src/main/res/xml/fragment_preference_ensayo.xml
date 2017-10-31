@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    android:key="preferenceScreen"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="UNIDADES_ENS"
+        android:title="@string/PreferenciasEnsayoTitulo">
+
+        <ListPreference android:title="@string/PreferenciasEnsayoSelUnidadesTitulo"
+            android:summary="@string/PreferenciasEnsayoSelUnidadesSumary"
+            android:key="UNIDADES"
+            android:defaultValue="0"
+            android:entries="@array/listArrayTipoUnidades"
+            android:entryValues="@array/listValuesTipoUnidades" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="EMAIL_ENS"
+        android:title="@string/PreferenciasEnsayoEmailTitulo">
+
+
+        <EditTextPreference
+            android:key="EMAIL"
+            android:enabled="true"
+            android:persistent="true"
+            android:defaultValue="your@email.com"
+            android:inputType="textNoSuggestions|textEmailAddress"
+
+            android:summary="@string/PreferenciasEnsayoEmailSumario"
+            android:title="Email:" />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

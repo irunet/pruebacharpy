@@ -1,0 +1,24 @@
+https://stackoverflow.com/questions/44328474/android-mpchart-barchart-description-postion
+https://stackoverflow.com/search?q=MPChart
+https://stackoverflow.com/questions/35240289/how-to-create-a-barchart-with-grouped-bars-with-mpandroidchart
+https://github.com/PhilJay/MPAndroidChart/blob/master/MPChartLib/src/main/java/com/github/mikephil/charting/utils/FileUtils.java
+https://www.youtube.com/watch?v=iyVjk4quuCQ
+https://code.tutsplus.com/tutorials/add-charts-to-your-android-app-using-mpandroidchart--cms-23335
+https://www.studytutorial.in/android-bar-chart-or-bar-graph-using-mpandroid-library-tutorial
+
+https://stackoverflow.com/questions/35707532/how-to-set-color-for-values-in-mpandroidchart
+https://github.com/PhilJay/MPAndroidChart/wiki/The-Axis
+
+
+
+
+-------------- itex
+
+https://stackoverflow.com/questions/29408427/creating-pdf-in-android-using-itext
+https://www.codeproject.com/Articles/986574/Android-iText-Pdf-Example
+https://itextpdf.com/itext-android-demos
+
+
+----------
+
+https://beastieux.com/2008/06/29/codigo-java-promedio-mediana-moda-maximo-y-minimo/

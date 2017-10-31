@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">pruebacharpy</string>
+    <string name="titulo_app">ENSAYO CHARPY</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+
+
+    <string name="setup">Preferencias</string>
+    <string name="resultados">Tabla resultados</string>
+    <string name="escala_seleccionada">Escala seleccionada: R%s</string>
+    <string name="ensayo_ISO_seleccionado">Ensayo ISO-CHARPY - Escala R%s</string>
+    <string name="ensayo_ASTM_seleccionado">Ensayo ASTM-CHARPY - Escala R%s</string>
+    <string name="ensayo_IZOD_seleccionado">Ensayo ASTM-IZOD - Escala R%s</string>
+    <string name="ensayo_ISO">Ensayo seleccionado ISO-CHARPY </string>
+    <string name="ensayo_ASTM">Ensayo seleccionado ASTM-CHARPY </string>
+    <string name="ensayo_IZOD">Ensayo seleccionado ASTM-IZOD </string>
+
+
+    <string name="calibracion_ISO_seleccionado">Calibración ISO-CHARPY - Escala R%s</string>
+    <string name="calibracion_ASTM_seleccionado">Calibración ASTM-CHARPY - Escala R%s</string>
+    <string name="calibracion_IZOD_seleccionado">Calibración ASTM-IZOD - Escala R%s</string>
+    <string name="calibracion_ISO">Calibración seleccionada ISO-CHARPY </string>
+    <string name="calibracion_ASTM">Calibración seleccionada ASTM-CHARPY </string>
+    <string name="calibracion_IZOD">Calibración seleccionada ASTM-IZOD </string>
+
+    <string name="error_configuration">Please configure your serial port first.</string>
+    <string name="error_security">You do not have read/write permission to the serial port.</string>
+    <string name="error_unknown">The serial port can not be opened for an unknown reason.</string>
+    <string name="Test">Test</string>
+    <string name="fragment_main_btn_ensayo">ENSAYO</string>
+    <string name="fragment_main_btn_calibracion">CALIBRACIÓN</string>
+    <string name="fragment_main_btn_configuracion">CONFIGURACIÓN</string>
+    <string name="fragment_estadisticas_button_save">Salvar y Exportar</string>
+    <string name="fragment_calibracion_btn_resetciclos">Reset ciclos</string>
+    <string name="fragment_calibracion_btn_angcero">Ajuste ang. cero</string>
+    <string name="fragment_calibracion_btn_angdisparo">Ajus ang. disparo (°)</string>
+    <string name="fragment_calibracion_btn_CalAngMax">Ang. Max  TEST</string>
+    <string name="fragment_calibracion_btn_calperdidas">Calc. perdidas</string>
+    <string name="fragment_calibracion_btn_seFMazaCal">F Maza Cal(N)</string>
+    <string name="fragment_calibracion_btn_seLBrazoCal">Long. brazo Cal(m)</string>
+    <string name="fragment_calibracion_btn_setEmazaCal">E.Maza CAL (J)</string>
+    <string name="fragment_calibracion_btn_setEspesor">Espesor (mm)</string>
+    <string name="fragment_calibracion_btn_setAnchura">Anchura (mm)</string>
+    <string name="fragment_calibracion_textView2">Angulo º</string>
+    <string name="prompt_dialog_promptmessage">Introducir el valor</string>
+    <string name="prompt_dialog_tvValorActual">Valor actual:</string>
+    <string name="prompt_dialog_btn_dismiss">Cancelar</string>
+    <string name="TipoEnsayoActivity_title">Tipo de ensayo</string>
+    <string name="fragment_calibracion_btn_calperdidas_dialog_msg">¿Tiene colocado el péndulo en la posición de disparo.?</string>
+    <string name="fragment_calibracion_btn_calperdidas_dialog_title">Colocar el brazo del péndulo en la posición de disparo</string>
+    <string name="fragment_calibracion_btn_calperdidas_dialog_btn_ok">Aceptar</string>
+    <string name="fragment_calibracion_btn_calperdidas_dialog_btn_cancel">Cancelar</string>
+    <string name="fragment_ensayo_btn_init_lote_msg">¿Desea borrar los datos de la memoria del dispositivo?</string>
+    <string name="EnsayoFragment_SetAnchura_Anchura_mm">Anchura\n(mm.)</string>
+    <string name="EnsayoFragment_SetAnchura_Anchura_in">Anchura\n(in)</string>
+    <string name="EnsayoFragment_SetAnchura_Espesor_mm">Espesor\n(mm.)</string>
+    <string name="EnsayoFragment_SetAnchura_Espesor_in">Espesor\n(in)</string>
+    <string name="EnsayoFragment_Perdidas">PERDIDAS</string>
+    <string name="EnsayoFragment_VelImpacto_mm">VEL.IMPACTO\n(mm/s)</string>
+    <string name="EnsayoFragment_VelImpacto_in">VEL.IMPAC.\n(in./s)</string>
+    <string name="fragment_ensayo_btn_angcero">Ajuste ang. cero</string>
+    <string name="fragment_ensayo_btn_angdisparo">Ajus ang. disparo (°)</string>
+    <string name="fragment_ensayo_btn_init_lote">Inic Lote</string>
+    <string name="fragment_ensayo_btn_calperdidas">TEST PERDIDAS</string>
+    <string name="EstadisticasActivity_Title">Estadísticas</string>
+    <string name="EstadisticasActivity_Lote">Lote</string>
+    <string name="ENERGIA">ENERGIA</string>
+    <string name="RESILENCIA">RESILENCIA</string>
+    <string name="fileexplorer">Explorador ficheros</string>
+    <string name="PreferenciasEnsayoTitulo">Preferencias del ensayo</string>
+    <string name="PreferenciasEnsayoSelUnidadesTitulo">Seleccionar unidades</string>
+    <string name="PreferenciasEnsayoSelUnidadesSumary">Seleccionar las unidades ensayo deacuerdo a la norma</string>
+    <string name="PreferenciasEnsayoEmailTitulo">Email para el envio de informes</string>
+    <string name="PreferenciasEnsayoEmailSumario">Es necesario config. una cuenta de correo en el sistema android</string>
+
+</resources>

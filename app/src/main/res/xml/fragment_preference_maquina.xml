@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Puerto de comunicaciones">
+
+        <CheckBoxPreference
+            android:key="checkbox_service"
+            android:title="Config. hardware maq."
+            android:defaultValue="false"
+            android:summary="Sólo para el servicio técnico" />
+
+        <EditTextPreference
+            android:key="DEVICE"
+            android:title="Dispositivo"
+            android:summary="Puerto de comunicaciones"
+            android:dialogTitle="Puerto de comunicación RS 232"
+            android:dependency="checkbox_service"
+            android:layout="?android:attr/preferenceLayoutChild"/>
+
+        <ListPreference
+            android:key="BAUDRATE"
+            android:title="Baudrate"
+            android:summary="Velocidad de comunicación"
+            android:entries="@array/baudrates_name"
+            android:entryValues="@array/baudrates_value"
+            android:dialogTitle="Velocidad de comunicación RS 232"
+            android:dependency="checkbox_service"
+            android:layout="?android:attr/preferenceLayoutChild"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

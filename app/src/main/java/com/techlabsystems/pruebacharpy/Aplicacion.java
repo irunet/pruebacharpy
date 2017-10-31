@@ -26,7 +26,7 @@ import android_serialport_api.SerialPortFinder;
  */
 
 public class Aplicacion extends Application {
-
+// Version de test
     private static Aplicacion instancia;
     private static Context context;
 

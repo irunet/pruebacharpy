@@ -7,6 +7,7 @@ import android.content.Intent;
 /**
  * Created by juanjo on 20/10/17.
  */
+// Rama Test
 
 public class BootReceiver extends BroadcastReceiver {
     @Override
